@@ -1,0 +1,270 @@
+
+/* navigation */
+
+.navbar{
+    min-height: 80px;
+    color: white;
+}
+.nav-item{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 14px;
+}
+
+/* masthead */
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(#f7971e, #ffd200);    
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+#myname{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 55px;
+}
+#kharisma{
+    color: white;
+}
+#title{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+#slogan{
+    color: black;
+}
+.buatjudul{
+    background-color: black;
+    width: 30%;
+    margin: auto;
+}
+
+/* scroll down animation */
+
+.container .sd{
+    padding-right: 50px;
+    margin-top: 29px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+  
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+  
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+
+/* aboutme */
+
+#aboutme{
+    background-color: #68c39f;
+}
+#aboutmeheader{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.centerimg{
+    display: block;
+    margin: 10px auto 10px;
+}
+
+#aboutext{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center{
+    padding-bottom: 30px;
+}
+
+/* skills */
+
+#skills{
+    background-image: url("images/coding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.transbox{
+    margin: 0px 30px 0px;
+    background: rgba(0, 0, 0, 0.822); 
+    border: 1px solid black;
+}
+.skillheader{
+    padding-top: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.circles{
+	width: 200px;
+    margin: 30px 0px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+	vertical-align: top;
+	
+}
+strong{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.dot{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.imgskill{
+    margin-top: 25px;
+}
+.skillh3{
+    color: white;
+    margin-top: 10px;
+}
+.wdhr{
+    border-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.skillp{
+    color: white;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+.frametools{
+    margin-bottom: 20px;
+}
+.progress{
+    width: 50%;
+    margin: auto;
+}
+.htools{
+    color: white;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+/* education & activities */
+.eduactcont{
+    display: grid;
+    margin-top: 20px;
+}
+.education{
+    text-align: center;
+    justify-content: center;
+}
+.activities{
+    justify-content: center;
+}
+.tabact{
+    margin-left: 30px;
+}
+
+/* contact */
+
+#contme{
+    margin-top: 15px;
+}
+form{
+    display: inline-block;
+    width: 30%;  
+}
+#myloc{
+    margin-top: 5px;
+    text-align: center;
+}
+#hrloc{
+margin: auto;
+width: 50%;     
+border-color: black;
+}
+#map {
+    margin-top: 20px;
+    height: 500px;
+  }
+
+/* footer */
