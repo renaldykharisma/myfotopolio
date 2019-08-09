@@ -26,8 +26,8 @@
 
 
     </head>
-    <body>
-        <nav class="navbar navbar-expand-md text-light bg-dark">
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-expand-md text-light bg-dark fixed-top">
                 <a class="navbar-brand" href="#">Renaldy Kharisma</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  
                 aria-controls="collapsibleNavbar" aria-expanded="true" aria-label="Toggle navigation">
@@ -35,18 +35,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <div class="navbar-nav nav-pills">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About Me</a>
-                    <a class="nav-item nav-link" href="#">Skills</a>
-                    <a class="nav-item nav-link" href="#">Education & Activities</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link active" href="#masthead">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#aboutme">About Me</a>
+                    <a class="nav-item nav-link" href="#skills">Skills</a>
+                    <a class="nav-item nav-link" href="#eduact">Education & Activities</a>
+                    <a class="nav-item nav-link" href="#contacts">Contact</a>
                     </div>
                 </div>
                 </nav>
         
         <!-- homepage -->
 
-        <header class="masthead">
+        <header id="masthead">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
@@ -74,7 +74,7 @@
             <p id="aboutext">
              "Passionate in web development especially in front-end development. I love to design and making responsive website. 
              I willing to learn new technology and frameworks that related with front-end development. Besides front-end development, 
-             i have some knowledges in back-end development and android mobile programming."</p>
+             i have some experiences & knowledges in back-end development and android mobile programming."</p>
              <div class="text-center">
             <button type="button" class = "btn btn-success">Download CV</button>
         </div> 
@@ -119,7 +119,7 @@
             <h1 class="skillheader">
                 Technical Skills
             </h1>
-            <div class="row" style="padding-right: 14px;">
+            <div class="row">
               <div class="col-sm-2">
                 <div class="circle1 circles">
                   <strong>html</strong>
@@ -172,6 +172,12 @@
                     <div class="progress-bar bg-warning" style="width: 60%;"></div>
                   </div>
                   <br>
+            <img src="images/logo-glyph.png" height="40" width="40" style="margin-bottom:5px;">
+            <h4 class="htools">postman</h4>
+            <div class="progress bg-dark">
+                    <div class="progress-bar bg-warning" style="width: 75%;"></div>
+                </div>
+                <br>
             <img src="images/icons8-git-48.png">
             <h4 class="htools">git</h4>
             <div class="progress bg-dark">
@@ -310,7 +316,26 @@
 
         <!-- footer -->
         <footer>
-
+                <div class="row text-center mx-auto footercontacts">
+                <div class="col icon">
+                        <img src="images/icons8-github-100.png">
+                        <br>
+                        <p>renaldykharisma</p>
+                    </div>
+                    <div class="col icon">
+                            <img src="images/icons8-email-100.png">
+                            <br>
+                            <p>renaldykhrsm@outlook.com</p>
+                    </div>
+                    <div class="col icon">
+                        <img src="images/icons8-whatsapp-100.png">
+                        <br>
+                        <p>087823418514</p>
+                    </div>
+                    <div class="col-xs-12 text-center mx-auto cpy">
+                        <p>© 2019 Copyright: Muhammad Renaldy Kharisma</p>
+                    </div>
+                </div>
         </footer>
 
         <script>

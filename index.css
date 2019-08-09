@@ -1,4 +1,9 @@
 
+body, html, #masthead, #aboutme, #skills, #eduact, #contacts
+{
+    position: relative;
+}
+
 /* navigation */
 
 .navbar{
@@ -16,9 +21,9 @@
 
 /* masthead */
 
-.masthead {
+#masthead {
     height: 100vh;
-    min-height: 500px;
+    min-height: 700px;
     background: linear-gradient(#f7971e, #ffd200);    
     background-position: center;
     background-repeat: no-repeat;
@@ -115,6 +120,8 @@
 /* aboutme */
 
 #aboutme{
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: #68c39f;
 }
 #aboutmeheader{
@@ -146,6 +153,8 @@
 /* skills */
 
 #skills{
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-image: url("images/coding.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,8 +239,11 @@ strong{
 
 /* education & activities */
 .eduactcont{
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: grid;
     margin-top: 20px;
+    margin-right: 0px;
 }
 .education{
     text-align: center;
@@ -239,6 +251,7 @@ strong{
 }
 .activities{
     justify-content: center;
+    margin-right: 0px;
 }
 .tabact{
     margin-left: 30px;
@@ -246,6 +259,10 @@ strong{
 
 /* contact */
 
+#contacts{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 #contme{
     margin-top: 15px;
 }
@@ -268,3 +285,21 @@ border-color: black;
   }
 
 /* footer */
+
+footer{
+    margin-top: 30px;
+    background-color: black;
+}
+
+.footercontacts{
+    width: 60%;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 0px; 
+}
+.cpy{
+    margin-top: 20px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    color: wheat;
+}
