@@ -19,6 +19,7 @@ body, html, #masthead, #aboutme, #skills, #eduact, #contacts
     font-size: 14px;
 }
 
+
 /* masthead */
 
 #masthead {
@@ -26,7 +27,6 @@ body, html, #masthead, #aboutme, #skills, #eduact, #contacts
     min-height: 700px;
     background: linear-gradient(#f7971e, #ffd200);    
     background-position: center;
-    background-repeat: no-repeat;
   }
 #myname{
     font-family: 'Ubuntu', sans-serif;
@@ -239,22 +239,29 @@ strong{
 
 /* education & activities */
 .eduactcont{
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 70px;
     display: grid;
     margin-top: 20px;
     margin-right: 0px;
 }
+#hredu{
+    background-color: black;
+}
 .education{
     text-align: center;
     justify-content: center;
 }
-.activities{
-    justify-content: center;
-    margin-right: 0px;
+#actheader{
+    text-align: center;
 }
-.tabact{
-    margin-left: 30px;
+#hract{
+    text-align: center;
+    width: 20%;
+    background-color: black;
+}
+.actrow{
+    width: 60%;
 }
 
 /* contact */

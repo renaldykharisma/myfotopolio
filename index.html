@@ -7,11 +7,15 @@
 
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-            
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
             <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
@@ -29,9 +33,9 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav class="navbar navbar-expand-md text-light bg-dark fixed-top">
                 <a class="navbar-brand" href="#">Renaldy Kharisma</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  
                 aria-controls="collapsibleNavbar" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon btn-light"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <div class="navbar-nav nav-pills">
@@ -196,88 +200,74 @@
                                 <h2>
                                     Education
                                 </h2>
-                                <hr>
+                                <hr id="hredu">
                                 <img src="images/pulogo.png" height="100" width="80" >
                                 <p>President University</p>
                                 <p>Information Technology</p>
                                 <p>2014 - 2019</p>
                             </div>
-                        </div>
-            
-                        <div class="row activities">
-                            <div class="col-sm-16 col-md-16 col-xs-16">
-                                <h2 style="text-align: center;">
-                                    Activities
-                                </h2>
-                                <hr>
-                                <table class="table table-borderless tabact">
-                                <tr>
-                                <td>
-                                <p>
-                                   1. Search Engine Optimization Seminar
-                                </p>
-                                <p>
-                                    2014
-                                </p>
-                                <p>
-                                    2. Computing Cyber Games
-                                </p>
-                                <p>
-                                    Position: Logistic
-                                </p>
-                                <p>
-                                    2015
-                                </p>
-                                <p>
-                                    3. Zahirul Ma'ala Isra' Mi'raj 1436H
-                                </p>
-                                <p>
-                                    Position: Logistic
-                                </p>
-                                <p>
-                                    2015
-                                </p>
-                                <p>
-                                    4. Sharia Economic Seminar
-                                </p>
-                                <p>
-                                    2015
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    5. PT. Telekomunikasi Indonesia Internship
-                                </p>
-                                <p>
-                                    Position: Cloud and Node Division
-                                </p>
-                                <p>
-                                    May - October 2017
-                                </p>
-                                <p>
-                                   6. Republic of IOT seminar 
-                                </p>
-                                <p>
-                                    2017
-                                </p>
-                                <p>
-                                   7. Hacktiv8 Front-end web development class
-                                </p>
-                                <p>
-                                    July - September 2019
-                                </p>
-                                <p>
-                                    8. Flutter Workshop in GDG Bandung
-                                 </p>
-                                 <p>
-                                     2019
-                                 </p>
-                            </td>
-                            </tr>
-                            </table>
-                            </div>
-                        </div>
-                    </div>           
+                        </div>                        
+                    </div>
+                <div class="container activitiescont">
+                  <h2 id="actheader">
+                    Activities
+                  </h2>
+                  <hr id="hract">
+                  <div class="row mx-auto actrow">
+                    <div class="col-md-6">
+                      <ol>
+                        <li>Search Engine Optimization Seminar
+                          <br>
+                          2014
+                        </li>
+                        <li>Computing Cyber Games
+                          <br>
+                          Position: Logistic
+                          <br>
+                          2015
+                        </li>
+                        <li>
+                          Zahirul Ma'ala Isra' Mi'raj 1436H
+                          <br>
+                          Position: Logistic
+                          <br>
+                          2015
+                        </li>
+                        <li>
+                          Sharia Economic Seminar
+                          <br>
+                          2015
+                        </li>
+                        <li>
+                            PT. Telekomunikasi Indonesia Internship
+                            <br>
+                            Position: Cloud and Node Division
+                            <br>
+                            May - October 2017
+                          </li>
+                      </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <ol start="6">
+                            <li>
+                              Republic of IOT seminar
+                              <br>
+                              2017 
+                            </li>
+                            <li>
+                              Hacktiv8 Front-end web development class
+                              <br>
+                              July - September 2019
+                            </li>
+                            <li>
+                              Flutter Workshop in GDG Bandung
+                              <br>
+                              2019
+                            </li>
+                          </ol>
+                    </div>
+                  </div>
+                </div>           
         </div>
     
         <!-- contact -->
@@ -382,7 +372,7 @@
                   }
                 });
               </script>
-<script>
+      <script>
         var map;
         function initMap() {
           map = new google.maps.Map(document.getElementById('map'), {
@@ -398,7 +388,33 @@
       </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKmUGzt-UShlJQt6YXLq0HYetmZ5X_c-s&callback=initMap" async defer></script>
 
-
-
+    <script>
+        $(document).ready(function(){
+          // Add scrollspy to <body>
+          $('body').scrollspy({target: ".navbar", offset: 50});   
+        
+          // Add smooth scrolling on all links inside the navbar
+          $("#collapsibleNavbar a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            }  // End if
+          });
+        });
+        </script>
     </body>
 </html>
