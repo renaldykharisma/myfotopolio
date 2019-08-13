@@ -238,15 +238,20 @@ strong{
 }
 
 /* education & activities */
+#eduact{
+    background-color: black;
+    margin-top: -20px;
+}
 .eduactcont{
     padding-top: 80px;
     padding-bottom: 70px;
     display: grid;
     margin-top: 20px;
     margin-right: 0px;
+    color: white;
 }
 #hredu{
-    background-color: black;
+    background-color: white;
 }
 .education{
     text-align: center;
@@ -255,10 +260,13 @@ strong{
 #actheader{
     text-align: center;
 }
+.activitiescont{
+    color: white;
+}
 #hract{
     text-align: center;
     width: 20%;
-    background-color: black;
+    background-color: white;
 }
 .actrow{
     width: 60%;
