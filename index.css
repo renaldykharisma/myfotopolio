@@ -181,6 +181,9 @@ body, html, #masthead, #aboutme, #skills, #eduact, #contacts
 	vertical-align: top;
 	
 }
+.circles:hover{
+    transform: scale(1.5);
+}
 strong{
     position: absolute;
     top: 50px;
